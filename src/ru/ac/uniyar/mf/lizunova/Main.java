@@ -104,7 +104,7 @@ public class Main {
         }
         else {
             if ("+".equals(parts[1])) {
-                if(num_2 != num_4){
+                if(num_3 != num_4){
                     result = num_1 * num_4 + num_2 * num_3;
                     if((int)(num_3 * num_4) != 1) {
                         System.out.print(str + " = " + (int)result + "/" + (int) (num_3 * num_4));
@@ -123,7 +123,7 @@ public class Main {
                     }
                 }
             } else if ("-".equals(parts[1])) {
-                if(num_2 != num_4){
+                if(num_3 != num_4){
                     result = num_1 * num_4 - num_2 * num_3;
                     System.out.print(str + " = " + (int)result + "/" + (int)(num_3 * num_4));
                 }
